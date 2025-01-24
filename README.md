@@ -1,5 +1,7 @@
 # Notify Reddit Content 🤖
 
+![Project Banner](assets/images/banner.jpg)
+
 Redditの投稿を自動で要約してDiscordに通知するBotアプリケーションです。
 
 ## 特徴 ✨
