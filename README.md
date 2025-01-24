@@ -61,6 +61,9 @@ bun dev
 bun start
 ```
 
+### 実行例
+![Usage Demo](assets/images/usage-demo.png)
+
 ## ライセンス 📄
 
 GPL-3.0 © RateteDev 
