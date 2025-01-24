@@ -1,0 +1,35 @@
+{
+  "name": "notify-reddit-content",
+  "version": "1.0.0",
+  "description": "Reddit投稿を自動で要約してDiscordに通知するBotアプリケーション",
+  "main": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run ./src/index.ts",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "keywords": [
+    "reddit",
+    "discord",
+    "bot",
+    "notification",
+    "summary",
+    "deepseek",
+    "typescript",
+    "bun"
+  ],
+  "author": "RateteDev",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@iarna/toml": "^2.2.5",
+    "@types/node": "^22.10.7",
+    "axios": "^1.7.9",
+    "chalk": "^5.4.1",
+    "discord.js": "^14.17.3",
+    "openai": "^4.79.4",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}

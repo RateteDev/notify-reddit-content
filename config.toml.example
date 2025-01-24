@@ -1,0 +1,14 @@
+[reddit]
+subreddit = "mcp"       # 取得対象のサブレディット
+post_limit = 5          # 取得するポスト数
+comment_depth = 3       # コメントの深さ（階層）
+time_range = "week"     # 投稿の時間範囲（day/week/month/year/all）
+
+[llm]
+use_provider = "deepseek"
+
+[llm.deepseek]
+api_key = "your-api-key-here"
+
+[notification.discord]
+webhook_url = "your-webhook-url-here" 
